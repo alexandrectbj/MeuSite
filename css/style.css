@@ -7,6 +7,7 @@
     --cor004: #3a8a38;
 }
 
+
 @font-face {
     font-family: 'Coalition';
     src: url('../fontes/fonte1.ttf') format('truetype');
@@ -22,6 +23,7 @@
     font-family: 'Second2';
     src: url('../fontes/fonte3.ttf') format('truetype');
 }
+
 
 *{
     font-family: Arial, Helvetica, sans-serif
