@@ -3,7 +3,7 @@
 :root{
     --cor001: #00FAC8;
     --cor002: #5FE392;
-    --cor003: #5fdb5b;
+    --cor003: #77e774;
     --cor004: #3a8a38;
 }
 
@@ -35,11 +35,16 @@
 
 body{
     background-image: linear-gradient(to right, var(--cor001), var(--cor002), var(--cor003) );;
+    background-image: url(../Imagens/wallpaper-full.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     height: 100%;
 }
 
 main{
-    background-color: white;
+    background-color: rgba(180, 221, 192, 0.295);
     margin: 20px auto;
     min-width: 400px;
     max-width: 600px;
@@ -57,7 +62,7 @@ main h1{
     text-align: center;
     color: var(--cor003);
     font-weight: normal;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.678);
     font-family: 'Second1', cursive;
 }
 
@@ -101,16 +106,16 @@ aside ul{
 ul a{
     color: var(--cor003);
     text-decoration: none;
-    padding: 3px;
+    padding: 5px;
 }
 
 ul a:hover{
-    color: var(--cor004);
+    color: var(--cor001);
     text-decoration: underline;
 }
 
 ul li{
-  padding-left: 10px;
+  padding-left: 1px;
   padding-bottom: 2px;
   list-style-type: none;  
 }
