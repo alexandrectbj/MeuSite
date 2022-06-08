@@ -36,7 +36,7 @@
 body{
     background-color: var(--cor002);
     background-image: url(../Imagens/wallpaper-full.png);
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
