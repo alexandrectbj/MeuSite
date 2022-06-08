@@ -34,7 +34,7 @@
 
 
 body{
-    background-image: linear-gradient(to right, var(--cor001), var(--cor002), var(--cor003) );;
+    background-image: linear-gradient(to right, var(--cor001), var(--cor002), var(--cor003) );
     background-image: url(../Imagens/wallpaper-full.png);
     background-position: left;
     background-repeat: no-repeat;
