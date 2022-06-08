@@ -3,7 +3,7 @@
 :root{
     --cor001: #00FAC8;
     --cor002: #5FE392;
-    --cor003: #77e774;
+    --cor003: #8ef88b;
     --cor004: #3a8a38;
 }
 
@@ -104,7 +104,7 @@ aside ul{
 }
 
 ul a{
-    color: var(--cor003);
+    color: #4a8a48;
     text-decoration: none;
     padding: 5px;
 }
