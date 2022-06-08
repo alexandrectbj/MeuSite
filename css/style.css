@@ -32,9 +32,17 @@
     margin: 0px;
 }
 
+/*
+
+background-image: linear-gradient(to right, var(--cor001), var(--cor002), var(--cor003) );
+
+
+*/
+
 body{
-    background-image: linear-gradient(to right, var(--cor001), var(--cor002), var(--cor003) );
+    background-image: url(../Imagens/wallpaper-full.png);
     height: 100%;
+    background-size: 1366px;
 }
 
 main{
