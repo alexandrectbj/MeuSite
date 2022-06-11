@@ -93,7 +93,15 @@ img.perfil{
     border: 0px;
     max-width: 200px;
     border-radius: 50%;
-    box-shadow: px 2px 1px rgba(0, 0, 0, 0.329);
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.329);
+}
+
+img.perfil:hover{
+    margin-right: 20px;
+    padding-right: 0px;
+    border: 0px;
+    max-width: 250px;
+    transition-duration: 0.5s;
 }
 
 aside ul{
@@ -112,6 +120,9 @@ ul a{
 ul a:hover{
     color: var(--cor001);
     text-decoration: underline;
+    padding: 10px;
+    font-size: 1.1em;
+    transition: 0.5s;
 }
 
 ul li{
