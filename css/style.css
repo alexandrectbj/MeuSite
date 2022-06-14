@@ -114,10 +114,9 @@ aside ul{
 ul a{
     color: #4a8a48;
     text-decoration: none;
-    padding: 5px;
 }
 
-ul a:hover{
+ul > li > a:hover{
     color: var(--cor001);
     text-decoration: underline;
     padding: 10px;
@@ -128,9 +127,39 @@ ul a:hover{
 ul li{
   padding-left: 1px;
   padding-bottom: 2px;
+  padding-right: 20px;
   list-style-type: none;  
 }
 
 ul > li > img{
     width: 20px;
+}
+
+
+div#caixaaside{
+    display: inline-flex;
+    width: 97%;
+    padding-bottom: 50px;
+    padding-left: 1px;
+}
+
+div#lista{
+    height: 150px;
+    width: 70%;
+}
+
+div#qrcode{
+    height: 150px;
+    width: 30%;
+}
+
+iframe{
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+}
+
+img#qricone{
+    width: 10px;
+    height: 10px;
 }
