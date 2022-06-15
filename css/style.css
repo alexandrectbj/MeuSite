@@ -138,7 +138,8 @@ ul > li > img{
 
 div#caixaaside{
     display: inline-flex;
-    width: 99%;
+    margin: auto;
+    width: 98%;
     padding-bottom: 50px;
     padding-left: 1px;
 }
@@ -156,9 +157,6 @@ div#qrcode{
 
 iframe{
     border: 1px solid black;
-    position: relative;
-    top: 10px;
-    left: 20px;
     background-color: #00FAC8;
     height: 120px;
     width: 120px;
