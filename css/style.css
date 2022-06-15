@@ -109,6 +109,7 @@ aside ul{
     padding: 5px;
     margin-left: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 ul a{
@@ -120,7 +121,6 @@ ul > li > a:hover{
     color: var(--cor001);
     text-decoration: underline;
     padding: 10px;
-    font-size: 1.1em;
     transition: 0.5s;
 }
 
@@ -138,12 +138,13 @@ ul > li > img{
 
 div#caixaaside{
     display: inline-flex;
-    width: 97%;
+    width: 99%;
     padding-bottom: 50px;
     padding-left: 1px;
 }
 
 div#lista{
+    padding-left: 15px;
     height: 150px;
     width: 70%;
 }
@@ -155,11 +156,10 @@ div#qrcode{
 
 iframe{
     border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: #00FAC8;
     height: 120px;
     width: 120px;
-}
-
-img#qricone{
-    width: 10px;
-    height: 10px;
 }
