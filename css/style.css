@@ -157,3 +157,20 @@ div#qrcode{
     height: 120px;
     width: 120px;
 }
+
+img#qricone{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+img#qricone:hover{
+    width: 20px;
+    height: 20px;
+    transition: 1s;
+}
+
+iframe#qrcode{
+    height: 120px;
+    width: 120px;
+}
