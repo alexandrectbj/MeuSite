@@ -35,7 +35,7 @@
 
 body{
     background-color: var(--cor002);
-    background-image: url(../Imagens/wallpaper-full.png);
+    background-image: url(../Imagens/background.png);
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,7 +44,7 @@ body{
 }
 
 main{
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(255, 255, 255, 0.74);
     margin: 20px auto;
     min-width: 400px;
     max-width: 600px;
