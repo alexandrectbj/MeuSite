@@ -41,6 +41,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+    animation-name: animacaoBack;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 main{
@@ -173,4 +176,20 @@ img#qricone:hover{
 iframe#qrcode{
     height: 120px;
     width: 120px;
+}
+
+
+@keyframes animacaoBack {
+    0%{
+        background-color: #3a8a38;
+    }
+    50%{
+        background-color: rgb(73, 73, 255);
+    }
+    75%{
+        background-color: violet;
+    }
+    100%{
+        background-color: var(--cor002);
+    }
 }
